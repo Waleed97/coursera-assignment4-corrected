@@ -1,4 +1,4 @@
-//configure your routes and view states in it.
+//configure your routes and view states in i t.
 // These routes should be defined in the MenuApp module.
 //The home state will not need a controller. Just a template
 //he categories state can have a controller as well as a resolve
