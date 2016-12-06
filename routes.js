@@ -28,12 +28,12 @@ function RoutesConfig($stateProvider,$urlRouterProvider) {
 		//template:'<div>Categories Tab</div>',
 		templateUrl:'template.html',
 		controller:'MenuCategoriesController as categoriesCtrl',
-// 		resolve: {
-// 			categoryitems: ['MenuDataService', function (MenuDataService) {
-// 				console.log("Ia m in resolve");
-// 				return MenuDataService.getAllCategories();
-// 			}]
-// 				}
+		resolve: {
+			categoryitems: ['MenuDataService', function (MenuDataService) {
+				console.log("Ia m in resolve");
+				return MenuDataService.getAllCategories();
+			}]
+				}
 			})
 			
 
